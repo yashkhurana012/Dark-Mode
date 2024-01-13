@@ -1,0 +1,56 @@
+
+
+.on {
+    margin: 50px auto;
+    width: 110px;
+    height: 60px;
+    background-color: #222;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+
+.circleRight{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: white;
+    position: absolute;
+    left: 5px;
+    transition:all 0.5s ease-in-out;
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+.circleLeft{
+    transition:all 0.5s ease-in-out;
+    left:68px;
+}
+
+#Capa_1{
+position: absolute;
+height: 40px;
+top:10px;
+}
+
+.moon{
+    left: 76px;
+}
+
+h1{
+    text-align: center;
+    font-size: 6rem;
+    padding-top: 60px;
+}
+
+.heading{
+    color: white;
+}
+
+.upper{
+    background-color: black;
+}
